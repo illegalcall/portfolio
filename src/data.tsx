@@ -1,5 +1,7 @@
 import { IProject } from "./types";
 
+export const tags = ["all", "frontend", "backend", "full stack", "system", "web 3"];
+
 export const projects: IProject[] = [
   {
     title: "Airbnb Clone",
@@ -24,7 +26,7 @@ export const projects: IProject[] = [
     code: "https://github.com/illegalcall/airbnb-clone",
     gallery: "",
     live: "https://book-your-stay.vercel.app/",
-    tags: ["nextjs", "tailwindcss", "prisma", "nextauth", "react-hook-form", "zustand", "mongodb", "cloudinary"],
+    tags: ["all", "frontend", "backend", "full stack"],
   },
   {
     title: "We-Connect",
@@ -39,7 +41,7 @@ export const projects: IProject[] = [
     code: "",
     gallery: "",
     live: "https://we-con-nect.netlify.app/",
-    tags: ["socket.io", "webrtc", "react", "nodejs", "express", "mongodb"],
+    tags: ["all", "frontend", "backend", "full stack"],
   },
   {
     title: "Codedamn Clone",
@@ -60,6 +62,6 @@ export const projects: IProject[] = [
     code: "",
     gallery: "",
     live: "https://codedamn-psi.vercel.app/",
-    tags: ["nextjs", "mongodb"],
+    tags: ["all", "frontend"],
   },
 ];

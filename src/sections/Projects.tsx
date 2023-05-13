@@ -3,8 +3,7 @@ import { projects as data } from "../data";
 import { useEffect, useState } from "react";
 import { FilterButton } from "../components/FilterButton";
 import { IProject } from "../types";
-
-const tags = ["all", "frontend", "backend", "full stack", "system", "web 3"];
+import { tags } from "../data";
 
 export const Projects = () => {
   const [tag, setTag] = useState<string>("all");

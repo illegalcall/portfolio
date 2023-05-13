@@ -19,17 +19,17 @@ export const Connect = () => {
           <a href="https://github.com/illegalcall/" target="_blank" rel="noreferrer">
             <SiGithub />
           </a>
-          <a href="mailto:dhruvcoding67@gmail.com">
+          <a href="mailto:d3v.dhruv@gmail.com">
             <SiGmail />
           </a>
         </div>
       </div>
       <footer className="absolute text-xs bottom-4">
-        Rakshit Arora 2022 --{" "}
+        Dhruv Sharma 2023 --{" "}
         <span className="italic text-gray-400">
           Designed with 💜 by{" "}
-          <a href="https://rakshit087.vercel.app" className="underline">
-            Rakshit
+          <a href="https://portfolio-illegalcall.vercel.app/" className="underline">
+            Dhruv
           </a>
         </span>
       </footer>
