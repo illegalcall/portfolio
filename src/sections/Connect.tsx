@@ -28,7 +28,7 @@ export const Connect = () => {
         Dhruv Sharma 2023 --{" "}
         <span className="italic text-gray-400">
           Designed with 💜 by{" "}
-          <a href="https://portfolio-illegalcall.vercel.app/" className="underline">
+          <a href="https://d3v-dhruv.vercel.app/" className="underline">
             Dhruv
           </a>
         </span>
