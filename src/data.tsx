@@ -1,8 +1,26 @@
 import { IProject } from "./types";
 
-export const tags = ["all", "frontend", "backend", "full stack", "system", "web 3"];
+export const tags = ["all", "frontend", "backend", "full stack", "mobile", "web 3"];
 
 export const projects: IProject[] = [
+  {
+    title: "Crypto price ticker",
+    desc: (
+      <div>
+        <p>Popular crypto price ticker app CoinMarketCap inspired project</p>
+        <br />
+        <p>
+          React Native app is bootstrapped using <span className="underline ">Expo</span> and built with
+          <span className="underline ">TypeScript</span>, <span className="underline ">Redux Toolkit</span>.
+        </p>
+      </div>
+    ),
+    date: "May 2023 - May 2023",
+    code: "https://github.com/illegalcall/crypto-price-ticker",
+    gallery: "https://github.com/illegalcall/crypto-price-ticker#app-screenshots",
+    live: "",
+    tags: ["all", "frontend", "backend", "full stack", "mobile"],
+  },
   {
     title: "Airbnb Clone",
     desc: (
@@ -22,7 +40,7 @@ export const projects: IProject[] = [
         </p>
       </div>
     ),
-    date: "Jul 2022 - Aug 2022",
+    date: "May 2023 - May 2023",
     code: "https://github.com/illegalcall/airbnb-clone",
     gallery: "",
     live: "https://book-your-stay.vercel.app/",
