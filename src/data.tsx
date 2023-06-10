@@ -1,8 +1,28 @@
 import { IProject } from "./types";
 
-export const tags = ["all", "frontend", "backend", "full stack", "mobile", "web 3"];
+export const tags = ["all", "frontend", "backend", "full stack", "mobile", "web 3", "cloud"];
 
 export const projects: IProject[] = [
+  {
+    title: "Dad Jokes Generator",
+    desc: (
+      <div>
+        <p>Generates Dad Jokes which is previewed ready to download as an image.</p>
+        <br />
+        <p>
+          This app is built using <span className="underline ">Next.js 13</span>, styling with{" "}
+          <span className="underline ">Styled Components</span>, <span className="underline ">AWS Amplify</span> as
+          backend, <span className="underline ">DynamoDb</span> to store data ,{" "}
+          <span className="underline ">Lambda</span> functions for handling backend requests.
+        </p>
+      </div>
+    ),
+    date: "June 2023 - June 2023",
+    code: "https://github.com/illegalcall/dad-jokes-generator",
+    gallery: "",
+    live: "https://prod.d32p8zhaaofoa2.amplifyapp.com/",
+    tags: ["all", "frontend", "backend", "full stack", "cloud"],
+  },
   {
     title: "Crypto price ticker",
     desc: (
